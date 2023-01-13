@@ -1,8 +1,6 @@
 import 'package:bookly_app/screens/home_page.dart';
 import 'package:flutter/material.dart';
 
-import 'helper/image_slider.dart';
-
 void main() {
   runApp(bookly());
 }
@@ -15,7 +13,7 @@ class bookly extends StatelessWidget {
         fontFamily: 'Cairo',
         textTheme: const TextTheme(
           bodyText2: TextStyle(
-            color: Color(0xffb9bed1)
+              color: Color(0xffb9bed1)
           ),
         ),
       ),
